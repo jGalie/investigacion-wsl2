@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Salidas generadas por el diagnóstico y archivos personales
+resultados_wsl2/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# CSV grandes y datos que requieren verificación de derechos/privacidad
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.zip
+*.7z
+*.rar
+
+# Entornos y editores
+.vscode/
+.idea/
+.env
+.env.*
